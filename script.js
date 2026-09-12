@@ -65,7 +65,7 @@ const projects = [
     ],
 
     file:
-      "projetos/packet-tracer/configuracao-dhcp.pkt"
+      "https://github.com/gabriellyheber22/estudos_de_redes/tree/main/configuracao-dhcp"
   },
 
 
@@ -86,7 +86,7 @@ const projects = [
     ],
 
     file:
-      "projetos/packet-tracer/http-server.pkt"
+      "https://github.com/gabriellyheber22/estudos_de_redes/tree/main/configuracao-http-server"
   },
 
 
@@ -107,7 +107,7 @@ const projects = [
     ],
 
     file:
-      "projetos/packet-tracer/rede-soho.pkt"
+      "https://github.com/gabriellyheber22/estudos_de_redes/tree/main/configuracao-rede-soho"
   },
 
 
@@ -128,7 +128,7 @@ const projects = [
     ],
 
     file:
-      "projetos/packet-tracer/rede-corporativa.pkt"
+      "https://github.com/gabriellyheber22/estudos_de_redes/tree/main/rede-corporativa"
   },
 
 
@@ -140,7 +140,7 @@ const projects = [
     description:
       "Simulação de uma rede estruturada em camadas com testes de conectividade utilizando ICMP para verificar a comunicação entre os dispositivos.",
 
-    image: "imagens/projetos/redes-hierarquica.png",
+    image: "imagens/projetos/redes-em-camadas.png",
 
     technologies: [
       "ICMP",
@@ -149,7 +149,7 @@ const projects = [
     ],
 
     file:
-      "projetos/packet-tracer/redes-em-camadas.pkt"
+      "https://github.com/gabriellyheber22/estudos_de_redes/tree/main/redes-em-camadas"
   },
 
 
@@ -210,10 +210,10 @@ function createProjectCard(project) {
     action = `
       <a
         href="${project.file}"
-        download
+        target="_blank"
         class="project-link">
 
-        Baixar projeto →
+        Ver projeto →
 
       </a>
     `;
